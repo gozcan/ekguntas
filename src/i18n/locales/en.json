@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Reliable Construction Solutions", 
+    "subtitle": "As Ekgüntaş Construction within Ekşioğlu Group, we turn your dream structures into reality with our 88 years of group experience.",
+    "cta": "Explore Our Projects",
+    "contact_button": "Get In Touch"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Ekşioğlu Group Company - Reliable Construction Partner",
+    "description": "Ekgüntaş Construction is one of the well-established construction companies within Ekşioğlu Group. With over 88 years of group experience operating in Istanbul, we demonstrate our quality workmanship approach through prestigious projects such as Dali Apartment, Gül Apartment, Kılıç Ali Mansion and 19 Mayıs Residences. We aim for excellence in every project by acting with the principles of customer satisfaction and on-time delivery.",
+    "experience": "88+ Years Group Experience",
+    "projects": "22+ Completed Projects",
+    "clients": "100+ Clients",
+    "team": "50+ Experts"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Construction Solutions",
+    "residential": {
+      "title": "Residential Projects",
+      "description": "We build modern living spaces in villa, apartment and residence projects with our expert team."
+    },
+    "commercial": {
+      "title": "Commercial Buildings",
+      "description": "We offer professional solutions for office buildings, shopping centers and commercial facilities."
+    },
+    "industrial": {
+      "title": "Industrial Buildings",
+      "description": "We build durable and functional structures for factories, warehouses and production facilities."
+    },
+    "renovation": {
+      "title": "Renovation",
+      "description": "We provide expert services in renovation and modernization of existing structures."
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Successful Projects We Have Completed",
+    "view_all": "View All Projects",
+    "show_less": "Show Less",
+    "more": "more",
+    "project_detail": "Project Details"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get In Touch With Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your Message",
+      "send": "Send",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred while sending the message."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Ekgüntaş Construction - Ekşioğlu Group Company. All rights reserved.",
+    "quick_links": "Quick Links",
+    "follow_us": "Follow Us"
+  },
+  "common": {
+    "learn_more": "Learn More",
+    "get_quote": "Get Quote",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "scroll_to_top": "Scroll to Top"
+  }
+}

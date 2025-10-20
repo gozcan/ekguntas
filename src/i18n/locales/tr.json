@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "projects": "Projelerimiz",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Güvenilir İnşaat Çözümleri",
+    "subtitle": "Ekşioğlu Grup bünyesindeki Ekgüntaş İnşaat olarak, 88 yıllık grup deneyimimizle hayalinizdeki yapıları gerçeğe dönüştürüyoruz.",
+    "cta": "Projelerimizi İnceleyin",
+    "contact_button": "İletişime Geçin"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Ekşioğlu Grup Şirketi - Güvenilir İnşaat Partneri",
+    "description": "Ekgüntaş İnşaat, Ekşioğlu Grup bünyesindeki köklü inşaat şirketlerinden biridir. 88 yılı aşkın grup deneyimi ile İstanbul'da faaliyet göstererek, Dali Apartmanı, Gül Apartmanı, Kılıç Ali Köşkü ve 19 Mayıs Konakları gibi prestijli projelerle kaliteli işçilik anlayışımızı ortaya koyuyoruz. Müşteri memnuniyeti ve zamanında teslimat prensipleriyle hareket ederek, her projede mükemmelliği hedefliyoruz.",
+    "experience": "88+ Yıl Grup Deneyimi",
+    "projects": "22+ Tamamlanan Proje",
+    "clients": "100+ Müşteri",
+    "team": "50+ Uzman"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Kapsamlı İnşaat Çözümleri",
+    "residential": {
+      "title": "Konut Projeleri",
+      "description": "Villa, apartman ve rezidans projelerinde uzman ekibimizle modern yaşam alanları inşa ediyoruz."
+    },
+    "commercial": {
+      "title": "Ticari Yapılar",
+      "description": "Ofis binaları, alışveriş merkezleri ve ticari tesislerde profesyonel çözümler sunuyoruz."
+    },
+    "industrial": {
+      "title": "Endüstriyel Yapılar",
+      "description": "Fabrika, depo ve üretim tesisleri için dayanıklı ve fonksiyonel yapılar inşa ediyoruz."
+    },
+    "renovation": {
+      "title": "Renovasyon",
+      "description": "Mevcut yapıların yenilenmesi ve modernizasyonu konularında uzman hizmet veriyoruz."
+    }
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "subtitle": "Gerçekleştirdiğimiz Başarılı Projeler",
+    "view_all": "Tüm Projeleri Görüntüle",
+    "show_less": "Daha Az Göster",
+    "more": "tane daha",
+    "project_detail": "Proje Detayları"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle İletişime Geçin",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "message": "Mesajınız",
+      "send": "Gönder",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Mesaj gönderilirken bir hata oluştu."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Ekgüntaş İnşaat - Ekşioğlu Grup Şirketi. Tüm hakları saklıdır.",
+    "quick_links": "Hızlı Bağlantılar",
+    "follow_us": "Bizi Takip Edin"
+  },
+  "common": {
+    "learn_more": "Daha Fazla Bilgi",
+    "get_quote": "Teklif Al",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "scroll_to_top": "Başa Dön"
+  }
+}
