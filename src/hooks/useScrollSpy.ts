@@ -19,45 +19,33 @@ const useScrollSpy = () => {
     });
 
     const updateURL = (sectionId: string) => {
-      const url = new URL(window.location.href);
-      url.hash = `#${sectionId}`;
-      window.history.replaceState(null, '', url.toString());
+      if (window.location.hash !== `#${sectionId}`) {
+        const url = new URL(window.location.href);
+        url.hash = `#${sectionId}`;
+        window.history.replaceState(null, '', url.toString());
+
+        // Manually trigger hashchange event for useActiveSection hook
+        window.dispatchEvent(new HashChangeEvent('hashchange'));
+      }
     };
 
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + window.innerHeight / 3; // Better offset calculation
+      const scrollPosition = window.scrollY + 100; // Fixed header offset
+      let currentSection = 'home'; // Default to home
 
-      let currentSection = '';
-
-      for (let i = 0; i < sections.length; i++) {
+      // Find which section we're currently in
+      for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
-        const sectionTop = section.element.offsetTop;
-        const sectionHeight = section.element.offsetHeight;
-        const sectionBottom = sectionTop + sectionHeight;
+        const sectionTop = section.element.offsetTop - 120; // Account for fixed header
 
-        // Check if we're in the middle of this section
-        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        if (scrollPosition >= sectionTop) {
           currentSection = section.id;
           break;
         }
-
-        // If we're past all sections, select the last one
-        if (i === sections.length - 1 && scrollPosition >= sectionTop) {
-          currentSection = section.id;
-        }
       }
 
-      // Update URL only if section changed
-      if (currentSection && window.location.hash !== `#${currentSection}`) {
-        updateURL(currentSection);
-      }
-
-      // If we're at the very top of the page, show home
-      if (window.scrollY < 100) {
-        if (window.location.hash !== '#home') {
-          updateURL('home');
-        }
-      }
+      // Update URL and trigger navigation update
+      updateURL(currentSection);
     };
 
     // Throttle scroll events for better performance
